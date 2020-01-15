@@ -1,0 +1,16 @@
+{
+  "name": "webextension-referrer",
+  "version": "0.1.0",
+  "description": "toggle referrer on or off",
+  "homepage_url": "https://github.com/tcrowe/webextension-referrer",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "webextension-referrer",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["<all_urls>", "storage", "webRequest", "webRequestBlocking"]
+}
