@@ -15,7 +15,6 @@ const referrer2 = "referer";
 function filterReferrer({ name }) {
   const lowName = name.toLowerCase();
   if (lowName === referrer1 || lowName === referrer2) {
-    console.log("deleted requestHeaders", name);
     return false;
   }
   return true;
