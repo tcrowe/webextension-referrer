@@ -4,7 +4,7 @@ Feature:
 
 + Toggle on or off sending `Referer:` header
 
-It's safe. You can view the source which is concise. You can build it yourself by following the development and build instructions.
+It's safe. You can view the source which is concise. You can build it yourself by following the development and build instructions. It's also good if you just want a base to build your own extension on.
 
 Note: "Referer:" header is a mispelling in the HTTP specification. We call this webextension-referrer with two "r" characters.
 
